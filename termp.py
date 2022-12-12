@@ -9,8 +9,8 @@ if play==1:
       if computer == '가위':
         print('컴퓨터는 가위를 냈습니다')
         print('무승부')
-      elif computer == '주먹':
-        print("컴퓨터는 주먹을 냈습니다")
+      elif computer == '바위':
+        print("컴퓨터는 바위을 냈습니다")
         print("패배")
       elif computer == '보':
         print("컴퓨터는 보를 냈습니다")
@@ -19,6 +19,15 @@ if play==1:
       
       
     if player=='바위':
+      if computer == '가위':
+        print('컴퓨터는 가위를 냈습니다')
+        print('승리')
+      elif computer == '바위':
+        print("컴퓨터는 바위을 냈습니다")
+        print("무승부")
+      elif computer == '보':
+        print("컴퓨터는 보를 냈습니다")
+        print("패배")
       
     if player=='보':
 
