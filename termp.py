@@ -5,3 +5,6 @@ if play==1
     player=input("가위바위보를 시작합니다.")
     if player=='가위':
       
+    if player=='바위':
+      
+    if player=='보':
